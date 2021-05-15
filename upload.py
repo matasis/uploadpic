@@ -31,7 +31,7 @@ def selectParh():
 # def cheakstring():
     
 def LabelList():
-    access_token = '24.5bd9d33ad007169c01db493a4b76d7ac.2592000.1560521571.282335-16203984'
+    access_token = 'youaccess_token' #youaccess_token
     url = 'https://aip.baidubce.com/rpc/2.0/easydl/label/list?access_token='+access_token
     http=urllib3.PoolManager()
     body={
